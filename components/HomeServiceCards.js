@@ -64,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
     transition: "background-size 0.25s ease-in",
   },
   serviceItem: {
-    flex: "50%",
+    flex: "0 0 50%",
     paddingLeft: "1rem",
     paddingRight: "1rem",
     width: "33%",
@@ -73,11 +73,10 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "auto",
 
     [theme.breakpoints.down(420)]: {
-      minWidth: "100% !important",
+      flex: "0 0 100% !important",
     },
     [theme.breakpoints.down(769)]: {
-      flex: "50% !important",
-      minWidth: "50%",
+      flex: "0 0 50%",
     },
     [theme.breakpoints.down(1025)]: {
       align: "center",
