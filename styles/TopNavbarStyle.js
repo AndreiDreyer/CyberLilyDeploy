@@ -3,7 +3,7 @@ import { makeStyles } from "@material-ui/core/styles";
 export const useStyles = makeStyles((theme) => ({
   navbarContainer: {
     width: "100%",
-    zIndex: '999',
+    zIndex: "999",
     backgroundColor: "#151534",
     display: "flex",
     justifyContent: "space-between",
@@ -261,7 +261,7 @@ export const useStyles = makeStyles((theme) => ({
       padding: "0.5rem 1.25rem",
     },
     [theme.breakpoints.down(426)]: {
-      display: "none",
+      display: "none !important",
     },
   },
   navButtonContainer: {

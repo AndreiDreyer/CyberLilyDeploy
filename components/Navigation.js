@@ -41,8 +41,6 @@ export default function Navigation() {
   const styles = useStyles();
 
   const handleScroll = () => {
-    console.log("Scroll event", window.scrollY);
-
     if (window.scrollY > 20) {
       let navbarContainer = document.querySelector("header");
 

@@ -234,6 +234,12 @@ export const flowChartClasses = makeStyles((theme) => ({
     textAlign: "center",
     paddingTop: "6.25rem",
     width: "100vw",
+    [theme.breakpoints.down(769)]: {
+      paddingTop: "3.5rem",
+    },
+    [theme.breakpoints.down(436)]: {
+      paddingTop: "2rem",
+    },
   },
   titleText: {
     fontSize: "2.5rem",

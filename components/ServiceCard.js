@@ -35,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
   innerCard: {
     display: "flex",
     textAlign: "center",
+    height: "auto",
   },
   image: {
     display: "flex",
@@ -42,6 +43,11 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: "32px",
     paddingTop: "32px",
     paddingRight: "32px",
+  },
+  imgSrc: {
+    [theme.breakpoints.down(600)]: {
+      height: 217,
+    },
   },
   bottomText: {
     color: "black",
@@ -119,7 +125,7 @@ export default function ServiceCard(props) {
       <div className={classes.innerCard}>
         <div className={classes.front}>
           <div className={classes.image}>
-            <img src={props.serviceImage} />
+            <img src={props.serviceImage} className={classes.imgSrc} />
           </div>
           <div className={classes.bottomText}>
             <p>{props.serviceName}</p>
