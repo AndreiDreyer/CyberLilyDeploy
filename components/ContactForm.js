@@ -75,6 +75,9 @@ const useStyles = makeStyles((theme) => ({
     padding: 0,
     "& .MuiFormControl-root": {
       width: "100%",
+      "& .MuiFormGroup-root": {
+        justifyContent: "space-between",
+      },
     },
   },
   radioBorder1: {
@@ -85,8 +88,8 @@ const useStyles = makeStyles((theme) => ({
     width: "12.59rem",
     [theme.breakpoints.down(435)]: {
       // width: "9.5rem",
-      width: "47%",
-      marginRight: "1rem",
+      width: "49%",
+      marginRight: "0",
     },
   },
   radioBorder2: {
@@ -98,7 +101,7 @@ const useStyles = makeStyles((theme) => ({
     width: "12.59rem",
     [theme.breakpoints.down(435)]: {
       // width: "9.5rem",
-      width: "47%",
+      width: "49%",
     },
   },
   sendButton: {
