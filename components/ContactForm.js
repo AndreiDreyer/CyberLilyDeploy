@@ -73,6 +73,9 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "space-between",
     marginBottom: "1.25rem",
     padding: 0,
+    "& .MuiFormControl-root": {
+      width: "100%",
+    },
   },
   radioBorder1: {
     border: "1px solid #141433",
@@ -81,7 +84,8 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "2rem",
     width: "12.59rem",
     [theme.breakpoints.down(435)]: {
-      width: "9.5rem",
+      // width: "9.5rem",
+      width: "47%",
       marginRight: "1rem",
     },
   },
@@ -93,7 +97,8 @@ const useStyles = makeStyles((theme) => ({
     paddingRight: "0rem !important",
     width: "12.59rem",
     [theme.breakpoints.down(435)]: {
-      width: "9.5rem",
+      // width: "9.5rem",
+      width: "47%",
     },
   },
   sendButton: {
