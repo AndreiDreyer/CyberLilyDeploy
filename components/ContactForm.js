@@ -37,7 +37,7 @@ const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     paddingLeft: "3rem",
     paddingRight: "3rem",
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       height: "43rem",
       width: "95%",
       paddingLeft: "1rem",
@@ -80,7 +80,7 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "0.1rem",
     marginRight: "2rem",
     width: "12.59rem",
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       width: "9.5rem",
       marginRight: "1rem",
     },
@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "0rem !important",
     paddingRight: "0rem !important",
     width: "12.59rem",
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       width: "9.5rem",
     },
   },
