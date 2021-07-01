@@ -40,7 +40,7 @@ const useStyles = makeStyles({
             paddingLeft: "4%",
             paddingRight: "4%",
         },
-        [theme.breakpoints.down(420)]: {
+        [theme.breakpoints.down(435)]: {
             fontWeight: "500",
             fontSize: "1.5rem",
         },
@@ -60,7 +60,7 @@ const useStyles = makeStyles({
             paddingLeft: "4%",
             paddingRight: "4%",
         },
-        [theme.breakpoints.down(420)]: {
+        [theme.breakpoints.down(435)]: {
             marginTop: "-1rem",
             fontWeight: "500",
             fontSize: "1.5rem",

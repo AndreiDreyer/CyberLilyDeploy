@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
       paddingLeft: "10.63rem",
       paddingRight: "10.63rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       paddingLeft: "1.25rem",
       paddingRight: "1.25rem",
     },

@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
             [theme.breakpoints.down(769)]: {
                 marginTop: "2.5rem",
             },
-            [theme.breakpoints.down(420)]: {
+            [theme.breakpoints.down(435)]: {
                 maxHeight: '20rem',
             },
         },
@@ -40,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
                 marginRight: "-6.5rem",
                 marginLeft: "6rem",
             },
-            [theme.breakpoints.down(420)]: {
+            [theme.breakpoints.down(435)]: {
                 position: "relative",
                 marginRight: "-4rem",
                 marginLeft: "3.5rem",
@@ -59,7 +59,7 @@ const useStyles = makeStyles((theme) => ({
                 marginRight: "-5.5rem",
                 marginLeft: "5rem",
             },
-            [theme.breakpoints.down(420)]: {
+            [theme.breakpoints.down(435)]: {
                 marginRight: "-3.0rem",
                 marginLeft: "2rem",
             },
@@ -77,9 +77,13 @@ const useStyles = makeStyles((theme) => ({
                 marginRight: "-2rem",
                 marginLeft: "1rem",
             },
-            [theme.breakpoints.down(420)]: {
+            [theme.breakpoints.down(435)]: {
                 position: "relative",
                 marginRight: "0.5rem",
+                marginLeft: "-1rem",
+            },
+            [theme.breakpoints.down(376)]: {
+                marginRight: "0rem",
                 marginLeft: "-1rem",
             }
         },

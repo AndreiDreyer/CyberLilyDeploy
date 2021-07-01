@@ -53,7 +53,7 @@ const useStyles = makeStyles((theme) => ({
       marginRight: "auto",
       width: "36.56rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       width: "90%",
     },
   },
@@ -72,7 +72,7 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: "0.6rem",
       marginRight: "1rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       marginBottom: "5rem",
       width: "20.63rem",
     },
@@ -85,7 +85,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down(1025)]: {
       marginLeft: "-31rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       marginLeft: "-14rem",
       marginTop: "-37rem",
     },
@@ -100,7 +100,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down(1025)]: {
       marginLeft: "9rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       marginLeft: "-13rem",
       marginTop: "29.5rem",
     },
@@ -111,7 +111,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down(1025)]: {
       marginLeft: "-32.3rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       marginLeft: "-15rem",
     },
   },
@@ -124,7 +124,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down(1025)]: {
       marginLeft: "6.5rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       marginLeft: "-15.5rem",
     },
   },
@@ -143,7 +143,7 @@ const useStyles = makeStyles((theme) => ({
       marginRight: "auto",
       marginTop: " 2.563rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       width: "100%",
     },
   },
@@ -164,7 +164,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down(1025)]: {
       marginLeft: "15.5rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       marginLeft: "20rem",
     },
     [theme.breakpoints.down(380)]: {
@@ -183,7 +183,7 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down(1025)]: {
       marginLeft: "35rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       marginLeft: "20rem",
     },
     [theme.breakpoints.down(380)]: {

@@ -32,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
       marginRight: "auto",
       width: "36.56rem",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       width: "90%",
     },
   },
@@ -86,6 +86,7 @@ const useStyles = makeStyles((theme) => ({
     width: "20rem",
   },
   cardTitle2: {
+    textAlign: 'center',
     position: "absolute",
     fontWeight: 700,
     lineHeight: "3rem",
@@ -96,20 +97,23 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down(769)]: {
       marginLeft: "25%",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       paddingBottom: "10rem !important",
       marginTop: "0rem",
       fontWeight: 500,
-      marginLeft: "5%",
+      marginLeft: "7%",
       marginBottom: "0rem !important",
     },
-    [theme.breakpoints.down(380)]: {
+    [theme.breakpoints.down(391)]: {
       paddingBottom: "10rem !important",
       marginTop: "0rem",
       fontWeight: 500,
-      marginLeft: "1%",
+      marginLeft: "2% !important",
       marginBottom: "0rem !important",
     },
+    [theme.breakpoints.down(376)]: {
+      marginLeft: "0.5% !important",
+    }
   },
   cardTitle1: {
     position: "absolute",
@@ -122,12 +126,12 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down(769)]: {
       marginLeft: "29%",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       marginTop: "0rem",
       fontWeight: 500,
-      marginLeft: "15%",
+      marginLeft: "13%",
     },
-    [theme.breakpoints.down(380)]: {
+    [theme.breakpoints.down(391)]: {
       paddingBottom: "10rem !important",
       marginTop: "0rem",
       fontWeight: 500,
@@ -147,7 +151,7 @@ const useStyles = makeStyles((theme) => ({
       marginRight: "auto",
       marginBottom: "4%",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       marginTop: "4rem !important",
     },
   },
@@ -164,7 +168,7 @@ const useStyles = makeStyles((theme) => ({
       marginRight: "auto",
       marginBottom: "4%",
     },
-    [theme.breakpoints.down(420)]: {
+    [theme.breakpoints.down(435)]: {
       marginTop: "4rem !important",
     },
   },

@@ -12,6 +12,7 @@ export default function About() {
   return (
     <div>
       <Head>
+        <meta http-equiv="ScreenOrientation" content="autoRotate:disabled"></meta>
         <title>Cyber Lily Software - Zimbabwe Web Development Agency</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
