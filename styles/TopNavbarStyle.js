@@ -18,7 +18,7 @@ export const useStyles = makeStyles((theme) => ({
       paddingLeft: "3.75rem",
       paddingRight: "3.75rem",
     },
-    [theme.breakpoints.down(426)]: {
+    [theme.breakpoints.down(435)]: {
       paddingLeft: "1.25rem",
       paddingRight: "1.25rem",
     },
@@ -87,7 +87,7 @@ export const useStyles = makeStyles((theme) => ({
     paddingBottom: "1rem",
     display: "flex",
     alignItems: "center",
-    [theme.breakpoints.down(426)]: {
+    [theme.breakpoints.down(435)]: {
       paddingTop: "1.5rem",
       paddingBottom: "1.5rem",
     },
@@ -95,7 +95,7 @@ export const useStyles = makeStyles((theme) => ({
   logoText: {
     paddingLeft: "0.75rem",
     paddingTop: "0.1rem",
-    [theme.breakpoints.down(426)]: {
+    [theme.breakpoints.down(435)]: {
       paddingLeft: "0.1875rem",
       paddingTop: "0.125rem",
       marginTop: "auto",
@@ -111,7 +111,7 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     textTransform: "uppercase",
     color: "#ffffff",
-    [theme.breakpoints.down(426)]: {
+    [theme.breakpoints.down(435)]: {
       fontSize: "0.75rem",
       lineHeight: "15px",
     },
@@ -125,7 +125,7 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     textTransform: "uppercase",
     color: "#ffffff",
-    [theme.breakpoints.down(426)]: {
+    [theme.breakpoints.down(435)]: {
       fontSize: "0.4375rem",
       lineHeight: "9px",
     },
@@ -134,7 +134,7 @@ export const useStyles = makeStyles((theme) => ({
     display: "flex",
     paddingTop: "1.125rem",
     paddingBottom: "0.875rem",
-    [theme.breakpoints.down(426)]: {
+    [theme.breakpoints.down(435)]: {
       paddingTop: "1.75rem",
       paddingBottom: "1.75rem",
     },
@@ -260,7 +260,7 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down(769)]: {
       padding: "0.5rem 1.25rem",
     },
-    [theme.breakpoints.down(426)]: {
+    [theme.breakpoints.down(435)]: {
       display: "none !important",
     },
   },
@@ -292,7 +292,7 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   contactLink: {
-    [theme.breakpoints.down(426)]: {
+    [theme.breakpoints.down(435)]: {
       display: "none",
     },
   },
