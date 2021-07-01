@@ -18,6 +18,12 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: "0% !important",
       marginRight: "0% !important",
       maxWidth: "100%",
+      paddingTop: "3.5rem",
+      paddingBottom: "3.5rem",
+    },
+    [theme.breakpoints.down(436)]: {
+      paddingTop: "2rem",
+      paddingBottom: "2rem",
     },
     [theme.breakpoints.up(1026)]: {
       paddingLeft: "0.5rem",
@@ -58,7 +64,7 @@ const useStyles = makeStyles((theme) => ({
     transition: "background-size 0.25s ease-in",
   },
   serviceItem: {
-    flex: "50%",
+    flex: "0 0 50%",
     paddingLeft: "1rem",
     paddingRight: "1rem",
     width: "33%",
@@ -67,11 +73,10 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "auto",
 
     [theme.breakpoints.down(420)]: {
-      minWidth: "100% !important",
+      flex: "0 0 100% !important",
     },
     [theme.breakpoints.down(769)]: {
-      flex: "50% !important",
-      minWidth: "50%",
+      flex: "0 0 50%",
     },
     [theme.breakpoints.down(1025)]: {
       align: "center",
@@ -128,7 +133,7 @@ export default function HomeServiceCards(props) {
       <div className={classes.root}>
         <div className={classes.Title}>
           <h2 className={classes.topTitle}>
-            Services that bring <span className={classes.line1}>your vision</span> to life{" "}
+            We give life to <span className={classes.line1}>your vision</span>{" "}
           </h2>
           <h4 className={classes.smallTitle}>Tap card for more information</h4>
         </div>

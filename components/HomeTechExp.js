@@ -14,6 +14,12 @@ const useStyles = makeStyles((theme) => ({
       paddingLeft: "5%",
       paddingRight: "5%",
     },
+    [theme.breakpoints.down(769)]: {
+      marginTop: "3.5rem",
+    },
+    [theme.breakpoints.down(436)]: {
+      marginTop: "2rem",
+    },
   },
   title: {
     alignItems: "center",
@@ -97,7 +103,7 @@ export default function HomeTechExp(props) {
     return (
       <div className={classes.root}>
         <h2 className={classes.title}>
-          Our <span className={classes.line1}>technological expertise</span>
+          Our <span className={classes.line1}>technical expertise</span>
         </h2>
         <div className={classes.card}>
           <div className={classes.title_text}>
@@ -129,7 +135,7 @@ export default function HomeTechExp(props) {
     return (
       <div className={classes.root}>
         <h2 className={classes.title}>
-          Our <span className={classes.line1}>technological expertise</span>
+          Our <span className={classes.line1}>technical expertise</span>
         </h2>
         <div className={classes.card}>
           <div className={classes.title_text}>
