@@ -94,7 +94,7 @@ const services = [
     serviceName: "Website Design & Development",
     imgUrl: "./Website.svg",
     serviceUrl: "/service-website",
-    serviceIcon: "./service_card_icons/globe.svg",
+    serviceIcon: "./home_service_card_icons/globe.svg",
     shortDesc:
       "We design and develop custom websites from scratch, tailored specifically to your business’s needs. We pride ourselves on never using any templates for the design of our websites. We organize hosting for your websites through Amazon Web Services.",
   },
@@ -102,7 +102,7 @@ const services = [
     serviceName: "Web Application Design & Development",
     imgUrl: "./WebApp.svg",
     serviceUrl: "/service-web-app",
-    serviceIcon: "./service_card_icons/iphone_portrait.svg",
+    serviceIcon: "./home_service_card_icons/iphone_portrait.svg",
     shortDesc:
       "We design and develop scalable, enterprise grade web applications that suit your user’s and business’s needs. We organize hosting for your web applications through Amazon Web Services. Whatever solution works best for your needs, we will find.",
   },
@@ -110,7 +110,7 @@ const services = [
     serviceName: "Custom Software Development",
     imgUrl: "./CustomSoft.svg",
     serviceUrl: "/service-custom",
-    serviceIcon: "./service_card_icons/code.svg",
+    serviceIcon: "./home_service_card_icons/code.svg",
     shortDesc:
       "Our team of developers and designers can build custom software, tailored to your business’s needs. Our solutions are built specific to your user’s and business’s needs.",
   },
