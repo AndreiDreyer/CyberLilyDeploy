@@ -10,7 +10,7 @@ export default function Logo() {
     <Link href="/">
       <div className={styles.logoContainer}>
         <div className={styles.logoImgContainer}>
-          <img src="/logo/logomark.png" className={styles.logoImgContainer} />
+          <img src="/logo/logomark.svg" className={styles.logoImgContainer} />
         </div>
         <div className={styles.logoText}>
           <div className={styles.logoMainHeading}>Cyber Lily</div>

@@ -77,9 +77,9 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   logoImgContainer: {
-    [theme.breakpoints.down(769)]: {
-      width: "37px",
-      height: "32px",
+    [theme.breakpoints.down(1081)]: {
+      // width: "37px",
+      // height: "32px",
     },
   },
   logoContainer: {
@@ -250,7 +250,7 @@ export const useStyles = makeStyles((theme) => ({
     boxShadow: "0px 4px 8px rgba(252, 218, 188, 0.16)",
     marginLeft: "0.75rem !important",
     "& > span": {
-      textTransform: "capitalize",
+      textTransform: "none",
       color: "#ffffff",
       [theme.breakpoints.down(769)]: {
         fontSize: "0.875rem",
@@ -262,6 +262,9 @@ export const useStyles = makeStyles((theme) => ({
     },
     [theme.breakpoints.down(435)]: {
       display: "none !important",
+    },
+    "&:hover": {
+      backgroundColor: "#f37018 !important",
     },
   },
   navButtonContainer: {

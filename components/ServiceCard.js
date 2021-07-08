@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
     transformStyle: "preserve-3d",
     transition: "0.8s transform",
     "&:hover": {
-      cursor: "pointer",
+      // cursor: "pointer",
       transform: "rotateY(180deg)",
       zIndex: 1000,
     },
@@ -91,6 +91,9 @@ const useStyles = makeStyles((theme) => ({
   },
   serviceButton: {
     color: "#FFFFFF !important",
+    "&:hover": {
+      backgroundColor: "#f37018 !important",
+    },
     backgroundColor: "#EF530B !important",
     radius: "0.25rem",
     width: "45%",
@@ -134,12 +137,7 @@ export default function ServiceCard(props) {
         <div className={classes.back}>
           <div className={classes.topText}>
             <Avatar className={classes.avatar}>
-              <picture>
-                <source media="(min-width: 374px)" srcSet={props.serviceIcon1} />
-                <source media="(min-width: 1025px)" srcSet={props.serviceIcon2} />
-                <source media="(min-width: 2560px)" srcSet={props.serviceIcon3} />
-                <img src={props.serviceIcon1} />
-              </picture>
+              <img src={props.serviceIcon} />
             </Avatar>
           </div>
           <div className={classes.descText}>

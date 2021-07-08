@@ -13,7 +13,7 @@ export default function GetInTouchFooter() {
       <p className={classes.textBlock}>Reach out and let's grow your</p>
       <p className={classes.textBlock2}>product together.</p>
       <Button href="/contact" variant="contained" disableElevation className={classes.contactButton}>
-        Get In Touch
+        Get in touch
       </Button>
     </div>
   );

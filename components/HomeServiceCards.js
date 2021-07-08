@@ -94,9 +94,7 @@ const services = [
     serviceName: "Website Design & Development",
     imgUrl: "./Website.svg",
     serviceUrl: "/service-website",
-    serviceIcon1: "./globe_service_card.png",
-    serviceIcon2: "./globe_service_card@2x.png",
-    serviceIcon3: "./globe_service_card@3x.png",
+    serviceIcon: "./service_card_icons/globe.svg",
     shortDesc:
       "We design and develop custom websites from scratch, tailored specifically to your business’s needs. We pride ourselves on never using any templates for the design of our websites. We organize hosting for your websites through Amazon Web Services.",
   },
@@ -104,9 +102,7 @@ const services = [
     serviceName: "Web Application Design & Development",
     imgUrl: "./WebApp.svg",
     serviceUrl: "/service-web-app",
-    serviceIcon1: "./iphone_portrait_service_card.png",
-    serviceIcon2: "./iphone_portrait_service_card@2x.png",
-    serviceIcon3: "././iphone_portrait_service_card@3x.png",
+    serviceIcon: "./service_card_icons/iphone_portrait.svg",
     shortDesc:
       "We design and develop scalable, enterprise grade web applications that suit your user’s and business’s needs. We organize hosting for your web applications through Amazon Web Services. Whatever solution works best for your needs, we will find.",
   },
@@ -114,9 +110,7 @@ const services = [
     serviceName: "Custom Software Development",
     imgUrl: "./CustomSoft.svg",
     serviceUrl: "/service-custom",
-    serviceIcon1: "./code_service_card.png",
-    serviceIcon2: "./code_service_card@2x.png",
-    serviceIcon3: "./code_service_card@3x.png",
+    serviceIcon: "./service_card_icons/code.svg",
     shortDesc:
       "Our team of developers and designers can build custom software, tailored to your business’s needs. Our solutions are built specific to your user’s and business’s needs.",
   },
@@ -147,9 +141,7 @@ export default function HomeServiceCards(props) {
                   serviceIcon={service.serviceIcon}
                   shortDesc={service.shortDesc}
                   serviceUrl={service.serviceUrl}
-                  serviceIcon1={service.serviceIcon1}
-                  serviceIcon2={service.serviceIcon2}
-                  serviceIcon3={service.serviceIcon3}
+                  serviceIcon={service.serviceIcon}
                 />
               </div>
             );
@@ -159,9 +151,8 @@ export default function HomeServiceCards(props) {
                 <ServiceCard
                   serviceName={service.serviceName}
                   serviceImage={service.imgUrl}
-                  serviceIcon1={service.serviceIcon1}
-                  serviceIcon2={service.serviceIcon2}
-                  serviceIcon3={service.serviceIcon3}
+                  serviceIcon={service.serviceIcon}
+                  serviceUrl={service.serviceUrl}
                   shortDesc={service.shortDesc}
                 />
               </div>
@@ -188,9 +179,6 @@ export default function HomeServiceCards(props) {
                   serviceIcon={service.serviceIcon}
                   shortDesc={service.shortDesc}
                   serviceUrl={service.serviceUrl}
-                  serviceIcon1={service.serviceIcon1}
-                  serviceIcon2={service.serviceIcon2}
-                  serviceIcon3={service.serviceIcon3}
                 />
               </div>
             );
@@ -200,10 +188,9 @@ export default function HomeServiceCards(props) {
                 <ServiceCard
                   serviceName={service.serviceName}
                   serviceImage={service.imgUrl}
-                  serviceIcon1={service.serviceIcon1}
-                  serviceIcon2={service.serviceIcon2}
-                  serviceIcon3={service.serviceIcon3}
+                  serviceIcon={service.serviceIcon}
                   shortDesc={service.shortDesc}
+                  serviceUrl={service.serviceUrl}
                 />
               </div>
             );
