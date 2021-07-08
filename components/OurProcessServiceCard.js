@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     perspective: "60rem",
     width: "100%",
-    minHeight: "31.25rem",
+    minHeight: "22rem",
 
     [theme.breakpoints.down(1025)]: {
       display: "block",
