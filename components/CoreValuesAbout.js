@@ -70,27 +70,21 @@ const values = [
   {
     valueName: "Integrity",
     avatar: "a1",
-    valueIcon1: "./shield-verified.png",
-    valueIcon2: "./shield-verified@2x.png",
-    valueIcon3: "./shield-verified@3x.png",
+    valueIcon: "./about_icons/shield_verified.svg",
     shortDesc:
       "We believe in transparency and are honest about our capabilities as we value our reputation. We will not take on a job unless we are absolutely certain we can satisfy our client’s needs and exceed their expectations.",
   },
   {
     valueName: "Motivation",
     avatar: "a2",
-    valueIcon1: "./graph_increase.png",
-    valueIcon2: "./graph_increase@2x.png",
-    valueIcon3: "./graph_increase@3x.png",
+    valueIcon: "./about_icons/graph_increase.svg",
     shortDesc:
       "Our motivation comes from our clients. We are as excited to bring your vision to life as we would be if it were our own. With our main goal in mind, we bring your vision to life for the sole purpose of improving your business. We take pride in our enjoyment of each and every project we take on.",
   },
   {
     valueName: "Creative Openness",
     avatar: "a3",
-    valueIcon1: "./lightbulb-big.png",
-    valueIcon2: "./lightbulb-big@2x.png",
-    valueIcon3: "./lightbulb-big@3x.png",
+    valueIcon: "./about_icons/lightbulb_big.svg",
     shortDesc:
       "We believe that a free flow of ideas in the world increases the probability of execution. Collaboration both within our organization and between our team and your business is essential to us and the project’s success.",
   },
@@ -111,28 +105,13 @@ export default function HomeServiceCards(props) {
         if (mobileBreakpoint) {
           return (
             <div className={classes.valueItem} key={value.valueName}>
-              <CoreValuesCard
-                valueName={value.valueName}
-                avatar={value.avatar}
-                valueIcon={value.valueIcon}
-                shortDesc={value.shortDesc}
-                valueIcon1={value.valueIcon1}
-                valueIcon2={value.valueIcon2}
-                valueIcon3={value.valueIcon3}
-              />
+              <CoreValuesCard valueName={value.valueName} avatar={value.avatar} valueIcon={value.valueIcon} shortDesc={value.shortDesc} />
             </div>
           );
         } else {
           return (
             <div className={classes.valueItem} key={value.valueName}>
-              <CoreValuesCard
-                valueName={value.valueName}
-                avatar={value.avatar}
-                valueIcon1={value.valueIcon1}
-                valueIcon2={value.valueIcon2}
-                valueIcon3={value.valueIcon3}
-                shortDesc={value.shortDesc}
-              />
+              <CoreValuesCard valueName={value.valueName} avatar={value.avatar} valueIcon={value.valueIcon} shortDesc={value.shortDesc} />
             </div>
           );
         }
