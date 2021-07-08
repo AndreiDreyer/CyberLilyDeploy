@@ -77,9 +77,9 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   logoImgContainer: {
-    [theme.breakpoints.down(1081)]: {
-      // width: "37px",
-      // height: "32px",
+    [theme.breakpoints.down(435)]: {
+      width: 40,
+      height: "auto",
     },
   },
   logoContainer: {
@@ -112,8 +112,8 @@ export const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
     color: "#ffffff",
     [theme.breakpoints.down(435)]: {
-      fontSize: "0.75rem",
-      lineHeight: "15px",
+      fontSize: "1rem",
+      lineHeight: "20px",
     },
   },
   logoSubHeading: {
@@ -126,8 +126,8 @@ export const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
     color: "#ffffff",
     [theme.breakpoints.down(435)]: {
-      fontSize: "0.4375rem",
-      lineHeight: "9px",
+      fontSize: "0.75rem",
+      lineHeight: "12px",
     },
   },
   navItemContainer: {
@@ -135,8 +135,11 @@ export const useStyles = makeStyles((theme) => ({
     paddingTop: "1.125rem",
     paddingBottom: "0.875rem",
     [theme.breakpoints.down(435)]: {
-      paddingTop: "1.75rem",
-      paddingBottom: "1.75rem",
+      paddingTop: "1.5rem",
+      paddingBottom: "1.5rem",
+      height: "100%",
+      marginTop: "auto",
+      marginBottom: "auto",
     },
     "& [class*='makeStyles-navContactButton']": {
       [theme.breakpoints.down(600)]: {
