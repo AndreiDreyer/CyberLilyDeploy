@@ -58,6 +58,12 @@ const useStyles = makeStyles((theme) => ({
     marginLeft: "auto",
     marginRight: "auto",
     marginBottom: "1rem",
+    [theme.breakpoints.down(1025)]: {
+      marginTop: '-2.5rem',
+    },
+    [theme.breakpoints.down(435)]: {
+      marginTop: '0',
+    },
   },
   topText: {
     marginLeft: "2rem",
