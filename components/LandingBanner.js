@@ -18,7 +18,7 @@ export default function LandingBanner() {
           </div>
         </div>
         <div className={styles.bannerContactButton}>
-          <Button>Get in touch</Button>
+          <Button href="/contact" >Get in touch</Button>
         </div>
       </div>
     </div>
