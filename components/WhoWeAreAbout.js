@@ -73,7 +73,7 @@ const useStyles = makeStyles((theme) => ({
       marginRight: "1rem",
     },
     [theme.breakpoints.down(435)]: {
-      marginBottom: "5rem",
+      marginBottom: "0.5rem",
       width: "20.63rem",
     },
   },
@@ -86,8 +86,9 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: "-31rem",
     },
     [theme.breakpoints.down(435)]: {
-      marginLeft: "-14rem",
-      marginTop: "-37rem",
+      textAlign: 'left',
+      marginLeft: "1.5rem",
+      marginTop: "0rem",
     },
   },
   imageLabel2: {
@@ -101,8 +102,9 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: "9rem",
     },
     [theme.breakpoints.down(435)]: {
-      marginLeft: "-13rem",
-      marginTop: "29.5rem",
+      textAlign: 'left',
+      marginLeft: "1.5rem",
+      marginTop: "0rem",
     },
   },
   imageLabel_12: {
@@ -112,7 +114,9 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: "-32.3rem",
     },
     [theme.breakpoints.down(435)]: {
-      marginLeft: "-15rem",
+      textAlign: 'left',
+      marginLeft: '1.5rem',
+      marginBottom: "0.5rem",
     },
   },
   imageLabel_22: {
@@ -165,7 +169,9 @@ const useStyles = makeStyles((theme) => ({
       marginLeft: "15.5rem",
     },
     [theme.breakpoints.down(435)]: {
+      marginTop: "-3rem",
       marginLeft: "20rem",
+      marginBottom: '0.5rem',
     },
     [theme.breakpoints.down(380)]: {
       marginLeft: "19rem",
@@ -220,12 +226,12 @@ export default function WhoWeAreAbout() {
         </div>
         <div className={classes.bothImages}>
           <img className={classes.image} src={"./andrei-3 1.svg"} />
-          <img className={classes.image} src={"./macky 1.svg"} />
           <Typography className={classes.imageLabel1}>Andrei Dreyer</Typography>
           <Typography className={classes.imageLabel_12}>Co-founder</Typography>
           <a target="_blank" href="https://www.linkedin.com/in/andrei-dreyer-85017479/">
             <Avatar className={classes.avatar1} src="./coolicon@3x.png" />
           </a>
+          <img className={classes.image} src={"./macky 1.svg"} />
           <Typography className={classes.imageLabel2}>David MacIntosh</Typography>
           <Typography className={classes.imageLabel_22}>Co-founder</Typography>
           <a target="_blank" href="https://www.linkedin.com/in/david-macintosh-53872b191/">
