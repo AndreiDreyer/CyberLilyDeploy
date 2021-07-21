@@ -203,42 +203,85 @@ export default function WhoWeAreAbout() {
   const classes = useStyles();
   const theme = useTheme();
 
-  return (
-    <div className={classes.root}>
-      <div className={classes.innerCard}>
-        <div className={classes.text}>
-          <h2 className={classes.topTitle}>
-            Who <span className={classes.line1}>we are</span>
-          </h2>
-          <p className={classes.topText}>
-            Cyber Lily Software was founded by two individuals passionate about improving the world through software. Our company was brought to life
-            by the need for modern, reliable and robust software solutions in Zimbabwe.
-          </p>
-          <p className={classes.topText}>
-            With internet connectivity improving in the country and the world, we decided to bring our technical skills home and produce world class
-            solutions to local problems. We pride ourselves on finding the most simple solutions to complex problems, methodically producing refined
-            and optimal solutions for each problem presented to us.
-          </p>
-          <p className={classes.topText}>
-            While initially our intention was solely to provide software solutions in Zimbabwe, we are happy to take on clients from anywhere in the
-            world.
-          </p>
-        </div>
-        <div className={classes.bothImages}>
-          <img className={classes.image} src={"./andrei-3 1.svg"} />
-          <Typography className={classes.imageLabel1}>Andrei Dreyer</Typography>
-          <Typography className={classes.imageLabel_12}>Co-founder</Typography>
-          <a target="_blank" href="https://www.linkedin.com/in/andrei-dreyer-85017479/">
-            <Avatar className={classes.avatar1} src="./coolicon@3x.png" />
-          </a>
-          <img className={classes.image} src={"./macky 1.svg"} />
-          <Typography className={classes.imageLabel2}>David MacIntosh</Typography>
-          <Typography className={classes.imageLabel_22}>Co-founder</Typography>
-          <a target="_blank" href="https://www.linkedin.com/in/david-macintosh-53872b191/">
-            <Avatar className={classes.avatar2} src="./coolicon@3x.png" />
-          </a>
+  const mobileBreakpoint = useMediaQuery(theme.breakpoints.down(1025));
+
+  if (!mobileBreakpoint) {
+    return (
+      <div className={classes.root}>
+        <div className={classes.innerCard}>
+          <div className={classes.text}>
+            <h2 className={classes.topTitle}>
+              Who <span className={classes.line1}>we are</span>
+            </h2>
+            <p className={classes.topText}>
+              Cyber Lily Software was founded by two individuals passionate about improving the world through software. Our company was brought to life
+              by the need for modern, reliable and robust software solutions in Zimbabwe.
+            </p>
+            <p className={classes.topText}>
+              With internet connectivity improving in the country and the world, we decided to bring our technical skills home and produce world class
+              solutions to local problems. We pride ourselves on finding the most simple solutions to complex problems, methodically producing refined
+              and optimal solutions for each problem presented to us.
+            </p>
+            <p className={classes.topText}>
+              While initially our intention was solely to provide software solutions in Zimbabwe, we are happy to take on clients from anywhere in the
+              world.
+            </p>
+          </div>
+          <div className={classes.bothImages}>
+            <img className={classes.image} src={"./andrei-3 1.svg"} />
+            <img className={classes.image} src={"./macky 1.svg"} />
+            <Typography className={classes.imageLabel1}>Andrei Dreyer</Typography>
+            <Typography className={classes.imageLabel_12}>Co-founder</Typography>
+            <a target="_blank" href="https://www.linkedin.com/in/andrei-dreyer-85017479/">
+              <Avatar className={classes.avatar1} src="./coolicon@3x.png" />
+            </a>
+            <Typography className={classes.imageLabel2}>David MacIntosh</Typography>
+            <Typography className={classes.imageLabel_22}>Co-founder</Typography>
+            <a target="_blank" href="https://www.linkedin.com/in/david-macintosh-53872b191/">
+              <Avatar className={classes.avatar2} src="./coolicon@3x.png" />
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  } else {
+    return(
+      <div className={classes.root}>
+        <div className={classes.innerCard}>
+          <div className={classes.text}>
+            <h2 className={classes.topTitle}>
+              Who <span className={classes.line1}>we are</span>
+            </h2>
+            <p className={classes.topText}>
+              Cyber Lily Software was founded by two individuals passionate about improving the world through software. Our company was brought to life
+              by the need for modern, reliable and robust software solutions in Zimbabwe.
+            </p>
+            <p className={classes.topText}>
+              With internet connectivity improving in the country and the world, we decided to bring our technical skills home and produce world class
+              solutions to local problems. We pride ourselves on finding the most simple solutions to complex problems, methodically producing refined
+              and optimal solutions for each problem presented to us.
+            </p>
+            <p className={classes.topText}>
+              While initially our intention was solely to provide software solutions in Zimbabwe, we are happy to take on clients from anywhere in the
+              world.
+            </p>
+          </div>
+          <div className={classes.bothImages}>
+            <img className={classes.image} src={"./andrei-3 1.svg"} />
+            <Typography className={classes.imageLabel1}>Andrei Dreyer</Typography>
+            <Typography className={classes.imageLabel_12}>Co-founder</Typography>
+            <a target="_blank" href="https://www.linkedin.com/in/andrei-dreyer-85017479/">
+              <Avatar className={classes.avatar1} src="./coolicon@3x.png" />
+            </a>
+            <img className={classes.image} src={"./macky 1.svg"} />
+            <Typography className={classes.imageLabel2}>David MacIntosh</Typography>
+            <Typography className={classes.imageLabel_22}>Co-founder</Typography>
+            <a target="_blank" href="https://www.linkedin.com/in/david-macintosh-53872b191/">
+              <Avatar className={classes.avatar2} src="./coolicon@3x.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
