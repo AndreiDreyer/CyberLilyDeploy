@@ -11,10 +11,19 @@ export default class MyDocument extends Document {
           <link rel="preconnect" href="https://fonts.gstatic.com"></link>
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y1Q01VXEFM"></script>
-          <script>
-            window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)}
-            gtag('js', new Date()); gtag('config', 'G-Y1Q01VXEFM');
-          </script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-Y1Q01VXEFM', {
+                  page_path: window.location.pathname,
+                });
+              `,
+            }}
+          ></script>
         </Head>
         <body>
           <Main />
